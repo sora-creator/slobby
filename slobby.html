@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🦥취미추천봇 슬로비🦥</title>
-    <link rel="stylesheet" href="slobby.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jua&family=Nanum+Pen+Script&family=Single+Day&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slobby_1.css">
+    <link rel="stylesheet" href="slobby_2.css">
+
 </head>
 <body>
-    <div class="chat-container">
-        <div class="chat-header">
-            <div class="sloth-location">
-                <img src="images/sloth-icon.png" alt="Chatbot Icon" class="sloth">
-            </div>
+    <div id="loading-page">
+        <div class="text">Hello! I'm Slobby<br>
+            (sloth + slow + hobby)</div>
+        <div class="sloth-icon">🦥</div>
+        <div class="container">
+        <p>안녕하세요. 저는 나무위에서 코딩하는 <b>'슬로비'</b>에요.<br>
+        여러분의 <span>바쁜 일상속 즐거움</span>을 찾을 수 있도록<br>
+        가끔은 느긋하게 취미를 즐기며 <span>행복한 삶</span>을 살 수 있도록<br>
+        취미를 추천해줄게요<span class="smile">😊</span></p>
         </div>
-
-        <div id="chat-box">
-            <div class="bot-default-message">
-                안녕하세요😊 저는 당신에게 가장 어울리는 취미를 추천해주는
-                '슬로비'🦥입니다. 참고로 제 취미는 '나무위에서 코딩하기'에요. 당신의 성향을 설명해주시면 취미를 추천해드릴게요❤️
-            </div>
-        </div>
-
-        <div class="chat-input">
-            <input type="text" id="user-input" placeholder="당신의 성향을 말해주세요 🦥" autofocus>
-            <button id="send-button"><img src="images/send.png" alt="메세지 전송 버튼"></button>
-        </div>
+        <div class="text">❤️🧡💛 Click to Start 💚💙💜</div>
     </div>
-
-    <script src="slobby.js"></script>
+    <div id="main-content" style="display: none;">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="sloth-location">
+                        <img src="images/sloth-icon.png" alt="Chatbot Icon" class="sloth">
+                    </div>
+                </div>
+        
+                <div id="chat-box">
+                    <div class="bot-default-message">
+                        안녕하세요😊 저는 당신에게 가장 어울리는 취미를 추천해주는
+                        '슬로비'🦥입니다. 참고로 제 취미는 '나무위에서 코딩하기'에요. 당신의 성향을 설명해주시면 취미를 추천해드릴게요❤️
+                    </div>
+                </div>
+        
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="당신의 성향을 말해주세요 🦥" autofocus>
+                    <button id="send-button"><img src="images/send.png" alt="메세지 전송 버튼"></button>
+                </div>
+            </div>
+    </div>
+    <script src="loading.js"></script>
 </body>
 </html>

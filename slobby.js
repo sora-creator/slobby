@@ -1,3 +1,16 @@
+// 첫번째 페이지
+document.addEventListener('DOMContentLoaded', function() {
+    const loadingPage = document.getElementById('loading-page');
+    const mainContent = document.getElementById('main-content');
+
+    loadingPage.addEventListener('click', function() {
+        loadingPage.style.display = 'none';
+        mainContent.style.display = 'block';
+    });
+});
+
+
+// 두번째 페이지
 document.getElementById('send-button').addEventListener('click', function() {
     sendMessage();
 });
