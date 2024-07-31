@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.chat-container {
+    width: 360px; height: 80vh;
+    max-height: 800px;
+    background-color: rgba(243, 243, 243, 1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-top: auto;
+    overflow-y: auto;
+}
+
+.chat-header {
+    width: 360px; height: 138px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #000000;
+    position: relative;
+    margin: 0 0 13px 0;
+}
+
+.sloth-location {
+    width: 108px; height: 108px;
+    border-radius: 54px;
+    background-color: #BBE0F7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sloth {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.bot-default-message {
+    width: 254px; height: 115x;
+    border-radius: 10px;
+    background-color: #96ECC6;
+    margin: 0px 7px 13px 7px;
+    padding: 8px
+}
+
+#user-input {
+    width: 360px; height: 75px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(222, 222, 222, 1);
+    bottom: 0px;
+    border: none;
+    padding: 0 15px;
+    padding-right: 48px;
+    font-size: 18px;
+}
+
+#send-button {
+    position: absolute;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    top: 25%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#send-button img {
+    width: 30px;
+    height: 30px;
+}
+
+#chat-box {
+    height: calc(100% - 213px);
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-input {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.user-message {
+    background-color: #A59DF7;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot-message {
+    background-color: #96ECC6;
+    align-self: flex-start;
+}
