@@ -18,13 +18,11 @@
 - 사용자와의 대화를 통해 맞춤형 취미 추천
 
 ## 3. 챗봇 시연
-### 데모 영상
-- 실제 사용자 입력 예시와 그에 따른 취미 추천 결과를 보여줌
-- ![데모 영상](https://youtu.be/TfWa1fob8SE)
+### 데모 영상(실제 사용자 입력 예시와 그에 따른 취미 추천 결과를 보여줌)
+![데모 영상](https://youtu.be/TfWa1fob8SE)
 
 ## 4. 기술 스택
-### 프론트엔드
-- HTML/CSS/JS
+### HTML/CSS/JS
 
 ## 5. 기능 및 특징
 ### 주요 기능
@@ -36,11 +34,10 @@
 
 ## 6. 개발 과정
 ### WBS(Work Breakdown Structure)
-- ![슬로비 프로젝트 WBS](images/slobby_wbs.png)
+![슬로비 프로젝트 WBS](images/slobby_wbs.png)
 
-### 와이어프레임
-- ![슬로비 프로젝트 와이어프레임](images/slobby_wireframe.png)
-- [와이어프레임_피그마_링크](https://www.figma.com/design/BZ3aFx00ZzaHZgPrbfnH0D/%EC%8A%AC%EB%A1%9C%EB%B9%84-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1&t=w8JKhWOoejuHsGoQ-1)
+### 와이어프레임 ([와이어프레임_피그마_링크](https://www.figma.com/design/BZ3aFx00ZzaHZgPrbfnH0D/%EC%8A%AC%EB%A1%9C%EB%B9%84-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1&t=w8JKhWOoejuHsGoQ-1))
+![슬로비 프로젝트 와이어프레임](images/slobby_wireframe.png)
 
 ## 7. 느낀 점
 ### 개발 사이클을 알게 됨
@@ -51,7 +48,7 @@
 ### 나의 현 수준을 파악
 - 실제로 개발하며 어떤 부분을 모르는지 확실히 드러남 -> 발전할 수 있는 기회
 
-###개발 중 직면한 문제와 해결 방법
+### 개발 중 직면한 문제와 해결 방법
 - 책 추천 챗봇을 계획했으나, 존재하지 않는 책을 추천하는 문제 발생
 - 문제해결을 위해 네이버 도서API 또는 국립중앙도서관 API를 연결해 실존하는 책인지 확인하는 작업 추가 필요
 - 개인의 역량부족으로 완성하지 못할 것이라 판단함
