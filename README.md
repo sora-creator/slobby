@@ -20,7 +20,7 @@
 ## 3. 챗봇 시연
 ### 데모 영상
 - 실제 사용자 입력 예시와 그에 따른 취미 추천 결과를 보여줌
-- [![데모 시연](http://img.youtu.be/TfWa1fob8SE/0.jpg)](https://youtu.be/TfWa1fob8SE)
+- ![데모 영상](https://youtu.be/TfWa1fob8SE)
 
 ## 4. 기술 스택
 ### 프론트엔드
@@ -36,11 +36,11 @@
 
 ## 6. 개발 과정
 ### WBS(Work Breakdown Structure)
-![슬로비 프로젝트 WBS](images/slobby_wbs.png)
+- ![슬로비 프로젝트 WBS](images/slobby_wbs.png)
 
 ### 와이어프레임
-![슬로비 프로젝트 와이어프레임](images/slobby_wbs.png)
-[와이어프레임_피그마_링크](https://www.figma.com/design/BZ3aFx00ZzaHZgPrbfnH0D/%EC%8A%AC%EB%A1%9C%EB%B9%84-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1&t=w8JKhWOoejuHsGoQ-1)
+- ![슬로비 프로젝트 와이어프레임](images/slobby_wireframe.png)
+- [와이어프레임_피그마_링크](https://www.figma.com/design/BZ3aFx00ZzaHZgPrbfnH0D/%EC%8A%AC%EB%A1%9C%EB%B9%84-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1&t=w8JKhWOoejuHsGoQ-1)
 
 ## 7. 느낀 점
 ### 개발 사이클을 알게 됨
