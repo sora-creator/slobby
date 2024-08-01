@@ -18,7 +18,7 @@
 - 사용자와의 대화를 통해 맞춤형 취미 추천
 
 ## 3. 챗봇 시연
-[슬로비(Slobby) 시연영상](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[슬로비(Slobby) 시연영상](https://youtu.be/TfWa1fob8SE)
 
 ## 4. 기술 스택
 ### HTML/CSS/JS
